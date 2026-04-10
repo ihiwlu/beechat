@@ -1,0 +1,21 @@
+# 忽略编译出来的程序
+*.exe
+
+# 忽略 Python 缓存
+__pycache__/
+
+# 忽略 IDE 配置（那个 .codebuddy 文件夹）
+.codebuddy/
+# 忽略打包生成的临时文件
+client/build/
+client/dist/
+*.spec
+
+# 忽略用户上传的文件（重要！）
+server/uploads/*
+!server/uploads/.gitkeep
+
+# 忽略 Python 编译文件
+*.pyc
+server/mail_id.py
+*.env
